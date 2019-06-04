@@ -463,6 +463,14 @@ a > .rounded-square:hover {
     transition-duration: 0.3s;
 }
 
+.navwrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
 @media only screen and (max-width: 400px) {
     .page {
         width: 100%;
@@ -496,6 +504,15 @@ a > .rounded-square:hover {
 
 }
 @media only screen and (min-width: 961px) {
+
+    .navwrapper {
+        width: 960px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+    }
+
     .full-container, .head {
         width: 960px;
         margin: 0 auto;
