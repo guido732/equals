@@ -255,7 +255,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .logos-clientes > img {
