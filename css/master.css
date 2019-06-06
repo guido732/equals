@@ -203,7 +203,7 @@ section {
 .img-container {
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items:center;
 }
 
 .container {
@@ -425,6 +425,7 @@ form {
 .contact-element {
     width: 50%;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .contact-element p {
