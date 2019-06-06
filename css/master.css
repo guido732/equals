@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -141,25 +142,6 @@ section {
 
 
 /* FUNCIONA sin offset */
-
-.nav-link {
-    font-weight: 600;
-    color: #595959;
-    text-decoration: none;
-}
-
-.nav-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #009ecc;
-    transition: width .3s;
-}
-
-.nav-link:hover::after {
-    width: 100%;
-}
 
 .button {
     display: block;
@@ -472,6 +454,13 @@ a > .rounded-square:hover {
     margin: auto;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
 @media only screen and (max-width: 400px) {
     .page {
         width: 100%;
@@ -606,4 +595,26 @@ a > .rounded-square:hover {
         margin-bottom: 0;
     }
 
+}
+
+@media only screen and (min-width: 768px) {
+
+    .nav-link {
+        font-weight: 600;
+        color: #595959;
+        text-decoration: none;
+    }
+
+    .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #009ecc;
+        transition: width .3s;
+    }
+
+    .nav-link:hover::after {
+        width: 100%;
+    }
 }

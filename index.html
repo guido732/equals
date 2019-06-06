@@ -15,7 +15,9 @@
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <!-- Font Awesome icons -->
         <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
 
@@ -74,6 +76,7 @@
                 </nav>
             </div>
             <div class="head back" id="top">
+                
                 <div class="header-container-desktop">
                     <div class="container header-text">
                         <h1>Creamos <span>soluciones</span> para el mercado enzimático</h1>
@@ -87,7 +90,8 @@
             </div>
         </header>
         <div class="page">
-            <section class="front quienes" id="about">
+            <section class="front quienes">
+                <a href="" class="anchor"id="about"></a>
                 <div class="full-container">
                     <div class="container quienes-text">
                         <h1>¿Quienes somos?</h1>
@@ -100,7 +104,8 @@
                     </div>
                 </div>
             </section>
-            <section class="back mezclas" id="mezclas">
+            <section class="back mezclas">
+                <a href="" class="anchor"id="mezclas"></a>
                 <div class="full-container">
                     <div class="container center">
                         <h1>Nuestras Mezclas</h1>
@@ -135,7 +140,8 @@
                     <img src="img/logos/angular.svg" alt="">
                 </div>
             </section>
-            <section class="contact container" id="contact">
+            <section class="contact container" id="">
+                <a href="" class="anchor"id="contact"></a>
                 <h1 class="center">Contacto</h1>
                 <p class="center">Si estás interesado en nuestros productos o tenés alguna duda, escribinos para que podamos asesorarte.</p>
                 <div class="full-container">
@@ -171,31 +177,33 @@
                         </div>
                         <div class="contact-element">
                             <h3>Seguinos</h3>
-                            <a href="https://facebook.com"><span class="rounded-square">
+                            <a target="_blank" rel="noopener noreferrer" href="https://facebook.com"><span class="rounded-square">
                                 <i class="fab fa-facebook-f fa-lg"></i>
                             </span></a>
-                            <a href="https://instagram.com"><span class="rounded-square">
+                            <a target="_blank" rel="noopener noreferrer" href="https://instagram.com"><span class="rounded-square">
                                 <i class="fab fa-instagram fa-lg"></i>
                             </span></a>
-                            <a href="https://pinterest.com"><span class="rounded-square">
+                            <a target="_blank" rel="noopener noreferrer" href="https://pinterest.com"><span class="rounded-square">
                                 <i class="fab fa-pinterest-p fa-lg"></i>
                             </span></a>
                         </div>
                         <div class="contact-element">
                             <h3>Correo</h3>
-                            <a href="mailto:info@equals.com.ar">info@equals.com.ar</a><hr>
+                            <a target="_blank" rel="noopener noreferrer"href="mailto:info@equals.com.ar">info@equals.com.ar</a><hr>
                             <a href="mailto:contacto@equals.com.ar">contacto@equals.com.ar</a>
                         </div>
                     </div>
                 </div>
             </section>
             <footer class="center">
-                <p>Diseño por <strong><a href="https://estudiomuss.com.ar">Estudio Muss</a></strong> 2019</p>
+                <p>Diseño por <strong><a target="_blank" rel="noopener noreferrer" href="https://estudiomuss.com.ar">Estudio Muss</a></strong> 2019</p>
                 <p>Todos los derechos reservados</p>
             </footer>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> -->
+        <script>
+        $(document).on('click',function(){
+        $('.collapse').collapse('hide');
+        })
+        </script>
     </body>
 </html>
