@@ -594,7 +594,6 @@ a.anchor {
     .button {
         margin-bottom: 0;
     }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -617,4 +616,9 @@ a.anchor {
     .nav-link:hover::after {
         width: 100%;
     }
+
+    .navbar-light .navbar-nav .nav-link.active{
+        color: #009ecc;
+    }
+
 }
