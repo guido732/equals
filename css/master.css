@@ -460,12 +460,16 @@ a.anchor {
     top: -70px;
     visibility: hidden;
 }
+.navbar-light .navbar-nav .nav-link.active{
+    color: #009ecc;
+}
 
 @media only screen and (max-width: 400px) {
     .page {
         width: 100%;
         margin: auto;
     }
+
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     .logos-clientes{
@@ -490,6 +494,9 @@ a.anchor {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        color: #009ecc;
     }
 
 }
@@ -594,6 +601,9 @@ a.anchor {
     .button {
         margin-bottom: 0;
     }
+    .navbar-light .navbar-nav .nav-link.active{
+        color: #009ecc;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -615,10 +625,6 @@ a.anchor {
 
     .nav-link:hover::after {
         width: 100%;
-    }
-
-    .navbar-light .navbar-nav .nav-link.active{
-        color: #009ecc;
     }
 
 }
