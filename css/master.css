@@ -550,9 +550,13 @@ a.anchor {
     position: relative;
 }
 
-.tab-content-text img, .tab-pane>div>img, .text-center img{
+.tab-content-text img, .tab-pane>div>img {
     width: 100px;
     margin: 0.5rem 0 1rem 0;
+}
+
+.tab-content-wrapper-cards img{
+    width: 100px;
 }
 
 .tab-header-logo {
@@ -636,6 +640,7 @@ a.anchor {
         min-width: 12rem;
         margin: 0 .5rem 1rem .5rem;
     }
+
 
 }
 
@@ -795,6 +800,10 @@ a.anchor {
     .form-wrapper {
         max-width: 1140px;
         margin: auto;
+    }
+    .contact, .productos, .servicios, .quienes {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }
 
