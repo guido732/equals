@@ -575,7 +575,9 @@ a.anchor {
     height: .75rem;
 }
 
-
+.header-text {
+    padding-top: 2rem;
+}
 
 
 
@@ -804,6 +806,9 @@ a.anchor {
     .contact, .productos, .servicios, .quienes {
         padding-top: 2rem;
         padding-bottom: 2rem;
+    }
+    .header-text {
+        padding-top: 0;
     }
 }
 
