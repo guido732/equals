@@ -179,7 +179,7 @@ section {
 }
 
 .head {
-    padding-top: 100px;
+    padding-top: 3.5rem;
 }
 
 .img-container {
@@ -545,18 +545,31 @@ a.anchor {
 
 .tab-content-list {
     list-style: none;
-    margin-left: 1rem;
+    margin-left: 1.25rem;
     font-size: 0.9rem;
+    position: relative;
 }
 
-.tab-content-text img, .tab-pane>div>img{
+.tab-content-text img, .tab-pane>div>img, .text-center img{
     width: 100px;
     margin: 0.5rem 0 1rem 0;
 }
 
+.tab-header-logo {
+    margin: auto;
+    margin-top: 1rem;
+    align-self: center;
+}
 
-
-
+.tab-content-list li::before {
+    content: "";
+    position: absolute;
+    left: -1.25rem;
+    border-bottom: 2px solid #009ecc;
+    align-self: center;
+    width: .75rem;
+    height: .75rem;
+}
 
 
 
